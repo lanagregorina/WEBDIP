@@ -1,0 +1,569 @@
+/* FORMATIRANJE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#json{
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+}
+#xml{
+    margin-left: 5%;
+}
+
+html{
+    background-color: #025167;
+   	margin: 0;
+  	padding: 0;
+        background-size: cover;
+}
+
+#zaglavlje {
+
+    background-color: #025167;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Avenir, Arial, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+.dijagram{
+       max-width: 100%;
+   }
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #025167;
+}
+
+nav#meni{
+    display: inline-block;
+}
+
+#meni > ul {
+    font-size: 13px;
+    list-style: none;
+    line-height: 1;
+}
+
+#meni > ul li a {
+    font-size: 13px;
+    display: block;
+    color: #025167;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #ffffff;
+}
+
+#meni > ul li a:hover {
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #025167;
+}
+
+#eParking{
+	background-color: #025167;
+	text-color: #ffffff;
+	text-weight: 15px;
+}
+
+form {
+    background-color: gray;
+}
+
+label {
+    color: #ffffff;
+    text-align: left;
+   
+    width: 20%;
+    display: inline-block;
+}
+
+footer {
+    background-color: #025167;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer > address > a:visited,
+footer > address > a
+{
+    color: #ffffff;
+}
+
+.gumb { /*dodati u prijavi class gumb na submit button*/
+    background: #ffffff; 
+    cursor: pointer;
+      
+}
+
+.zapamti_me{
+    width: 3%;
+    cursor: pointer;
+   
+   }
+   
+   .spol{
+       position: relative;
+       top: 4px;
+       cursor: pointer;
+   }
+   
+   .da{
+       position: relative;
+       float: left;
+       cursor: pointer;
+       width: 3%;
+   }
+   .ne{
+       float: left;
+       cursor: pointer;
+       width: 3%;
+   }
+
+   
+   .txt_uvijet{
+       font-size: 10px;
+   }
+   
+   .uvijet{
+       cursor: pointer;
+       width: 1%;
+   }
+   .gumb_reg{
+        background-color: #FFFFFF;
+		border-radius: 5px;
+		cursor: pointer;
+		position: relative;
+		right: -70%;
+		width: 30%;
+   }
+   
+   .podnaslov{
+       text-decoration: #000000;
+       font-size: medium; 
+       margin-bottom: 7px;
+       margin-top: 7px;
+       
+   }
+   
+   .h3{
+       margin-bottom: 7px;
+       margin-top: 7px;
+   }
+   
+
+   
+/* BOX */
+#meni > ul {
+    margin: 0;
+    padding: 0;
+}
+
+#meni > ul li a {
+    border-top-style: dotted;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 11px 20px;
+}
+
+
+#meni > ul li:first-child a {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: none;
+}
+
+
+#meni > ul li:last-child a {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+section#sadrzaj{
+    margin-left: 10px;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+	text-align: left;
+}
+
+label { 
+    margin-bottom: 16px;
+}
+
+.unos{
+    margin-top: 30px;
+    
+}
+
+.gumb {
+    padding: 5px 15px; 
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* DIMENZIJE */
+body {
+    width:100%;
+}
+
+header {
+    width: 100%;
+}
+
+nav#meni{
+    padding: 0;
+    margin: 70px 0px 0px 70px;
+}
+
+section#sadrzaj{
+    width:50%;
+}
+
+
+#meni > ul {
+    width: 100%;
+}
+
+input {
+}
+
+
+form {    
+    width: 90%;
+}
+
+
+.gumb {
+    position: relative;
+    right: -44%;
+    width: 30%;
+}
+
+
+footer {
+    width: 100%;
+}
+
+#zivotopis{
+    width: 77%;
+}
+
+/* SLAGANJE */
+section#sadrzaj{
+    float:left;
+    margin-left: 40%;
+	matgin-top: -11%;
+}
+
+nav#meni{
+    
+    position: fixed;
+    top: 0.9em;
+    width: 9em;
+	 border-radius: 15px;
+   left: 0.5em;
+		
+}
+
+label {
+    clear: both;
+    display: inline-block;
+}
+
+footer {
+    font-size: 13px;
+    clear: both;
+}
+
+/*TABLICE*/
+
+.naslov {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    border-color: #808080;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+th {
+   background-color: #025167;
+   border-style: none;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 8px; 
+}
+
+td {
+   background-color:#ffffff;
+   border-style: none;
+   color: #3aa6d0;
+   padding: 4px;
+   font-size: 12px;
+}
+
+/*.par th, .par td{
+    background-color: #086fa1;    
+}
+
+tr.ne_par:hover td{
+    background-color: #025167;
+    color: #ffffff;
+}
+
+tr.par:hover td{
+   background-color: #025167;
+   color: #ffffff; 
+}*/
+
+input:focus{
+     background-color: #99FFFF;
+     font-weight: bold;
+}
+
+#forma input.greska{
+    background-color: #FF4540;
+    color: white;
+    
+}
+
+#forma input.dobro{
+    background-color: white;
+    color: black;
+    
+}
+
+label:hover, label:active, input:hover+label, input:active+label {
+  font-weight: bold;
+}
+
+#greske{
+    color: red;
+}
+
+#ui-helper-hidden-accessible{
+    text-align: left;
+    
+}
+form input {
+	width: 50%;
+}
+
+.username-span {
+	color: red;
+	font-size: 14px;
+}
+
+.username-span-2 {
+	color: blue;
+	font-size: 14px;
+}
+
+#tabs {
+	position: relative;
+	right: -30%;
+	width: 60%;
+}
+
+.tablica {
+	position: relative;
+	right: -40%;
+	width: 50%;
+}
+
+#kosarica-span {
+  position: relative;
+  right: -40%;
+}
+
+/*#zaglavlje-tablica{
+	font-size: 20px;
+	font: bold;
+	
+}*/
+
+
+
+/*OSTALO*/
+
+.css3{
+    position: relative;
+    right: 5px;
+}
+
+.html5{
+    position: relative;
+    right: -1px;
+}
+
+.slika{
+    cursor: pointer;
+}
+
+/*RESPONSIVE DESIGN MEDIA TAG*/
+@media only screen and (max-width : 731px) and (min-width : 451px) {
+    header {
+        font-size: large;
+    }
+    
+    
+    section#sadrzaj{
+        width:60%;
+        margin-top: 10px;
+    }
+    
+    nav#meni{
+        width:30%;
+    }
+    
+    #meni > ul {
+        width: 95%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px){
+    label{
+        font-size: 0.85em;
+    }
+    
+    section#sadrzaj{
+        width: 110%;
+        margin: 0px;
+    }
+    
+    #zaglavlje{
+        position: relative;
+    }
+    
+    #meni > ul {
+      width: 100%;
+    }
+    
+    nav#meni{
+	margin: 70px 0px;
+        display: block;
+        padding: 0;
+        width: 100%;
+        
+    }
+    
+    #meni > ul li{
+        display: block;
+    }
+    
+    
+    #meni > ul li a{
+        display: block;     
+    }
+    
+    #forma{
+        width: 95%;
+    }
+    
+    #zivotopis{
+        width: 100%;
+    }
+    
+    #spol{
+        position: relative;
+        top: 15px;
+    }
+    
+    #prijava{
+        width: 100%;
+    }
+    #sadrzaj{
+        width: 100%;
+    }
+    #table{
+        
+    }
+   }
+
+#gumb-parking {
+  background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: -75%;
+    width: 15%;
+}
+
+#holder-datatables {
+	width: 60%;
+	position: relative;
+	float: right;
+	right: 10%;
+}
+
+#login-div {
+  margin-top: 10px;
+  color: white;
+}
+
+#login_div a{
+  color: white;
+}
+
+#login-div-a {
+  color: white;
+}
+
+#login-div-a:hover {
+  color: red;
+}
+
+#pomak {
+  position: relative;
+  right: -30%;
+  width: 60%;
+  top: 30%;
+  color: white;
+}
+
+@media print {
+    nav#meni {
+        display:none;
+    }
+    .tablica {
+        position: relative;
+        right: -10%;
+        width: 80%;
+    }
+}
